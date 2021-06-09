@@ -470,6 +470,10 @@ ul {
 
 /* @FOOTER */
 /* ********** */
+footer {
+  background-color: #C4C4C4;
+}
+
 /* @HOME */
 /* ********** */
 main {
@@ -494,6 +498,10 @@ main {
   height: 492px;
 }
 
+.bloque {
+  padding: 10px;
+}
+
 .comentario {
   padding: 5px;
 }
@@ -511,6 +519,45 @@ main {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   padding: 14px;
+}
+
+.containerdos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 328px;
+}
+
+.containerdos img {
+  width: 100%;
+}
+
+.containertres {
+  width: 328px;
+}
+
+.containertres img {
+  width: 100%;
+}
+
+.opciones {
+  width: 328px;
+}
+
+.containertres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F8F6EE;
+  width: 360px;
+}
+
+.bloque1 {
+  padding: 10px;
+}
+
+.comentario1 {
+  padding: 5px;
 }
 
 /* @CONTACTAR */

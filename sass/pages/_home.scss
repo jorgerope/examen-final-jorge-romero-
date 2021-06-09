@@ -14,19 +14,13 @@ align-items: center;
     background-color: map-get($colores, crema );   
     width: 328px;
     height: 492px;
+    
 }
 
-// .camara{
-    
 
-// // display: flex;
-// // flex-direction: column;
-// justify-content: center;
-
-// // padding: 5px;
-// width: 100%;
-// }
-
+.bloque{
+    padding: 10px;
+}
 .comentario{
     padding: 5px;
 }
@@ -41,4 +35,43 @@ align-items: center;
     padding: 14px;
     
 }
+// imagen camara arriba
+.containerdos{
+    display: flex;
+    width: 328px;
+    img{
+        width: 100%;
+    }
+}
 
+.containertres{
+    width: 328px; 
+    img{
+        width: 100%;
+    }
+}
+
+.opciones{
+
+    width: 328px;
+}
+
+
+// imagen de lente y comentarios
+
+.containertres{
+    display: flex;
+    
+    background-color: map-get($colores,beach);   
+    width: 360px;
+  
+    
+}
+
+
+.bloque1{
+    padding: 10px;
+}
+.comentario1{
+    padding: 5px;
+}
