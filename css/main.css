@@ -426,7 +426,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 360px;
+  width: 328px;
   height: 140px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -457,7 +457,13 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 4px solid blue;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 360px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: flex;
   text-align: center;
   font-size: 3rem;
 }
@@ -479,30 +485,32 @@ main {
           align-items: center;
 }
 
-.imagenuno {
+.conteinerimg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 360px;
-  padding: 0 5px;
-}
-
-.camara {
-  width: 100%;
+  background-color: #FFE6D1;
+  width: 328px;
+  height: 492px;
 }
 
 .comentario {
-  background-color: #FFE6D1;
-  padding: 0 5px;
+  padding: 5px;
 }
 
 .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 296px;
   height: 50px;
+  background-color: #F2624A;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 14px;
 }
 
 /* @CONTACTAR */

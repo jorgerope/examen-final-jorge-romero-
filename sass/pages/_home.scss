@@ -8,27 +8,37 @@ align-items: center;
 
 }
 
-.imagenuno{
+.conteinerimg{
     display: flex;
-    flex-direction: column;
-width: 360px;
-// background-color: map-get($colores, crema );
-padding: 0 5px;
+    
+    background-color: map-get($colores, crema );   
+    width: 328px;
+    height: 492px;
+}
 
-}
-.camara{
-;
-// padding: 5px;
-width: 100%;
-}
+// .camara{
+    
+
+// // display: flex;
+// // flex-direction: column;
+// justify-content: center;
+
+// // padding: 5px;
+// width: 100%;
+// }
+
 .comentario{
-background-color: map-get($colores, crema );
-
-    padding: 0 5px;
+    padding: 5px;
 }
-
-
 .boton{
+    display: flex;
+    justify-content: center;
     width: 296px;
     height: 50px;
+    background-color: map-get($colores, naranja );
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 14px;
+    
 }
+
