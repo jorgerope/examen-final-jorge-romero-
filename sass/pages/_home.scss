@@ -1,2 +1,34 @@
 /* @HOME */
 /* ********** */
+
+main{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+
+.imagenuno{
+    display: flex;
+    flex-direction: column;
+width: 360px;
+// background-color: map-get($colores, crema );
+padding: 0 5px;
+
+}
+.camara{
+;
+// padding: 5px;
+width: 100%;
+}
+.comentario{
+background-color: map-get($colores, crema );
+
+    padding: 0 5px;
+}
+
+
+.boton{
+    width: 296px;
+    height: 50px;
+}

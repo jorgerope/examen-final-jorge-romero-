@@ -364,6 +364,11 @@ ul {
 /* ********** */
 /* @TIPOGRAFÍA */
 /* ********** */
+@font-face {
+  font-family: "arial";
+  src: url();
+}
+
 /* @MIXIN */
 /* ********** */
 /* @BOTONES */
@@ -382,10 +387,124 @@ ul {
 /* ********** */
 /* @HEADERS */
 /* ********** */
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comprar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 129px;
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F2624A;
+  text-align: center;
+  padding: 14px;
+  color: #000000;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360px;
+  height: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5px;
+}
+
+.menu__productos {
+  background-color: #FFE6D1;
+  text-align: center;
+  height: 50px;
+  padding: 14px;
+  color: #000000;
+}
+
+.menu__contactar {
+  color: #000000;
+  padding: 14px;
+  height: 50px;
+  text-align: center;
+  background-color: #FFE6D1;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 4px solid blue;
+  text-align: center;
+  font-size: 3rem;
+}
+
 /* @FOOTER */
 /* ********** */
 /* @HOME */
 /* ********** */
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imagenuno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 360px;
+  padding: 0 5px;
+}
+
+.camara {
+  width: 100%;
+}
+
+.comentario {
+  background-color: #FFE6D1;
+  padding: 0 5px;
+}
+
+.boton {
+  width: 296px;
+  height: 50px;
+}
+
 /* @CONTACTAR */
 /* ********** */
 /*# sourceMappingURL=main.css.map */
